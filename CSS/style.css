@@ -22,7 +22,6 @@ h2{
   font-weight: normal;
 }
 .navbar{
-  width: 100%;
   height: 80px;
   background-color: #b0a565;
   position: relative;
@@ -138,3 +137,42 @@ h2{
   border-style: outset;
   border-color: grey;
 }
+
+.faimage{
+  display: inline-block;
+  position: absolute;
+  left:0;
+  width:500px;
+  height:450px;
+  margin:25px;
+}
+
+.image1{
+  position: absolute;
+  left:0;
+  width:342.5px;
+  height:450px;
+}
+
+.facontent{
+  display: inline-block;
+  left: 393px;
+  position:absolute;
+  width:707.50px;
+  height:500px;
+  margin: 25px auto;
+
+}
+.fallentitle{
+  position: relative;
+  margin: 70px auto;
+}
+ .para2{
+   position:relative;
+   font-size: 1rem;
+   font-family: 'Kaushan Script', cursive;
+   width: 70%;
+   text-align: justify;
+   color:#ffe8d6;
+   margin:auto;
+ }
