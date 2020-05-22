@@ -35,6 +35,8 @@ h2{
   background-repeat: no-repeat;
   background-size: 1100px 500px;
   position: relative;
+  border-style: outset;
+  border-color: grey;
 }
 
 .leftone{
@@ -56,6 +58,8 @@ h2{
   background-color: #84142d;
   margin: 0 auto;
   position:relative;
+  border-style: outset;
+  border-color: grey;
 }
 
 .mlbbimage{
@@ -130,4 +134,7 @@ h2{
   height: 500px;
   background-color: #84142d;
   margin: 30px auto;
+  position:relative;
+  border-style: outset;
+  border-color: grey;
 }
