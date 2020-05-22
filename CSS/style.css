@@ -73,15 +73,16 @@ h2{
 .mlbbcontent{
   position:relative;
   margin-top: 30px;
-  top: 20px;
+  top: 10px;
 }
 .para1{
   font-size: 1rem;
   font-family: 'Kaushan Script', cursive;
   width: 50%;
   text-align: justify;
-  margin:0 auto 30px auto;
+  margin:0 auto 10px auto;
   color:#ffe8d6;
+  line-height: 2;
 }
 .btna {
 	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
@@ -175,4 +176,5 @@ h2{
    text-align: justify;
    color:#ffe8d6;
    margin:auto;
+   line-height: 2;
  }
