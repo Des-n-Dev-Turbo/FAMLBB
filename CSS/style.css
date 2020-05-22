@@ -55,7 +55,7 @@ h2{
   width: 1100px;
   height: 500px;
   background-color: #84142d;
-  margin: 0 auto;
+  margin: 30px auto;
   position:relative;
   border-style: outset;
   border-color: grey;
@@ -73,14 +73,14 @@ h2{
 .mlbbcontent{
   position:relative;
   margin-top: 30px;
-  top: 10px;
+  top: 20px;
 }
 .para1{
   font-size: 1rem;
   font-family: 'Kaushan Script', cursive;
   width: 50%;
   text-align: justify;
-  margin:0 auto 10px auto;
+  margin:0 auto 20px auto;
   color:#ffe8d6;
   line-height: 2;
 }
