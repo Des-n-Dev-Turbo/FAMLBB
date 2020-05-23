@@ -34,7 +34,8 @@ h2 {
 }
 
 .navbar {
-  padding: 45px;
+  padding: 45px 0;
+  width:100%;
   background-color: #cf7500;
   position: relative;
   border-style: none none outset;
