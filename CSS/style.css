@@ -1,32 +1,37 @@
-body{
-  background-color: #2d132c;
-  margin:0;
+body {
+  background-color: #21243d/*2d132c*/;
+  margin: 0;
   text-align: center;
 }
 
-h1{
+h1 {
   font-family: 'Sacramento', Arial, sans-serif, cursive;
   text-align: center;
   font-size: 5em;
   color: #ffbd69;
 }
 
-h2{
-  color:#50d890;
+h2 {
+  color: #50d890;
   font-size: 2rem;
-  font-family: 'Satisfy', Arial, sans-serif,cursive;
+  font-family: 'Satisfy', Arial, sans-serif, cursive;
   font-weight: normal;
 }
-.heading1{
+
+.heading1 {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: normal;
 }
-.navbar{
-  height: 80px;
-  background-color: #b0a565;
+
+.navbar {
+  height: 90px;
+  background-color: #cf7500;
   position: relative;
+  border-style: none none outset;
+  border-color: white;
 }
-.topcontainer{
+
+.topcontainer {
   width: 1100px;
   height: 500px;
   margin: 30px auto;
@@ -38,143 +43,168 @@ h2{
   border-color: grey;
 }
 
-.leftone{
+.leftone {
   display: inline-block;
-  position:absolute;
-  top:280px;
+  position: absolute;
+  top: 280px;
   left: 220px;
 }
-.rightone{
+
+.rightone {
   display: inline-block;
-  position:absolute;
-  top:280px;
+  position: absolute;
+  top: 280px;
   right: 200px;
 }
 
-.secondcontainer{
+.secondcontainer {
   width: 1100px;
   height: 500px;
   background-color: #84142d;
   margin: 30px auto;
-  position:relative;
+  position: relative;
   border-style: outset;
   border-color: grey;
 }
 
-.mlbbimage{
+.mlbbimage {
   position: relative;
   top: 50px;
 }
 
-.imgclass1{
+.imgclass1 {
   margin: 0 auto;
 }
 
-.mlbbcontent{
-  position:relative;
+.mlbbcontent {
+  position: relative;
   margin-top: 30px;
   top: 20px;
 }
-.para1{
+
+.para1 {
   font-size: 1rem;
   font-family: 'Kaushan Script', cursive;
   width: 50%;
   text-align: justify;
-  margin:0 auto 20px auto;
-  color:#ffe8d6;
+  margin: 0 auto 20px auto;
+  color: #ffe8d6;
   line-height: 2;
 }
+
 .btna {
-	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
-	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
-	box-shadow: 0px 1px 0px 0px #fff6af;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
-	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
-	background-color:#ffec64;
-	-webkit-border-top-left-radius:8px;
-	-moz-border-radius-topleft:8px;
-	border-top-left-radius:8px;
-	-webkit-border-top-right-radius:8px;
-	-moz-border-radius-topright:8px;
-	border-top-right-radius:8px;
-	-webkit-border-bottom-right-radius:8px;
-	-moz-border-radius-bottomright:8px;
-	border-bottom-right-radius:8px;
-	-webkit-border-bottom-left-radius:8px;
-	-moz-border-radius-bottomleft:8px;
-	border-bottom-left-radius:8px;
-  text-indent:0;
-	border:2px solid #ffaa22;
-	display:inline-block;
-	color:#333333;
-	font-family: 'Kaushan Script', cursive;
-	font-size:15px;
-	font-weight:bold;
-	font-style:normal;
-  height:50px;
-	line-height:50px;
-  width:150px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:0px 1px 0px #ffee66;
+  -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+  -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+  background: -moz-linear-gradient(center top, #ffec64 5%, #ffab23 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+  background-color: #ffec64;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  border: 2px solid #ffaa22;
+  display: inline-block;
+  color: #333333;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #ffee66;
 }
+
 .btna:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
-	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
-	background-color:#ffab23;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+  background: -moz-linear-gradient(center top, #ffab23 5%, #ffec64 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+  background-color: #ffab23;
 }
+
 .btna:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-.thirdcontainer{
+
+.thirdcontainer {
   width: 1100px;
   height: 500px;
   background-color: #84142d;
   margin: 30px auto;
-  position:relative;
+  position: relative;
   border-style: outset;
   border-color: grey;
 }
 
-.faimage{
+.faimage {
   display: inline-block;
   position: absolute;
-  left:0;
-  width:500px;
-  height:450px;
-  margin:25px;
+  left: 0;
+  width: 500px;
+  height: 450px;
+  margin: 25px;
 }
 
-.image1{
+.image1 {
   position: absolute;
-  left:0;
-  width:342.5px;
-  height:450px;
+  left: 0;
+  width: 342.5px;
+  height: 450px;
 }
 
-.facontent{
+.facontent {
   display: inline-block;
   left: 393px;
-  position:absolute;
-  width:707.50px;
-  height:500px;
+  position: absolute;
+  width: 707.50px;
+  height: 500px;
   margin: 25px auto;
-
 }
-.fallentitle{
+
+.fallentitle {
   position: relative;
   margin: 70px auto;
 }
- .para2{
-   position:relative;
-   font-size: 1rem;
-   font-family: 'Kaushan Script', cursive;
-   width: 70%;
-   text-align: justify;
-   color:#ffe8d6;
-   margin:auto;
-   line-height: 2;
- }
+
+.para2 {
+  position: relative;
+  font-size: 1rem;
+  font-family: 'Kaushan Script', cursive;
+  width: 70%;
+  text-align: justify;
+  color: #ffe8d6;
+  margin: auto;
+  line-height: 2;
+}
+
+.fourthcontainer {
+  width: 1100px;
+  height: 500px;
+  background-color: #84142d;
+  margin: 30px auto;
+  position: relative;
+  border-style: outset;
+  border-color: grey;
+}
+
+.footer{
+  height: 150px;
+  background-color: #cf7500;
+  position: relative;
+  border-style: outset none none;
+  border-color: white;
+}
