@@ -2,6 +2,7 @@ body {
   background-color: #21243d/*2d132c*/;
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1 {
@@ -19,13 +20,23 @@ h2 {
   font-weight: normal;
 }
 
+.logoimage{
+  position:absolute;
+  left:200px;
+  top:0;
+  width:267.5px;
+  height:90px;
+  margin: 0;
+}
 .heading1 {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: normal;
 }
 
 .navbar {
+  display: inline-block;
   height: 90px;
+  width: 100%;
   background-color: #cf7500;
   position: relative;
   border-style: none none outset;
@@ -203,9 +214,44 @@ h2 {
 }
 
 .footer{
-  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   background-color: #cf7500;
   position: relative;
   border-style: outset none none;
   border-color: white;
+}
+
+.footerimage{
+  width:20px;
+  height:20px;
+  position:relative;
+  bottom: 20px;
+  margin: 10px 10px 0 10px;
+}
+
+.linkin{
+  position: relative;
+  bottom: 25px;
+  color:#fcbf1e;
+  margin-top: 10px;
+  text-decoration:none;
+}
+.footerpara1{
+  font-weight: normal;
+  color:white;
+}
+.footerpara2{
+  display: inline-block;
+  font-weight: normal;
+  position:relative;
+  margin: 0 auto;
+}
+
+.footerimage1{
+  width:20px;
+  height:20px;
+  position:relative;
+  top:15px;
+  margin: 10px 10px;
 }
