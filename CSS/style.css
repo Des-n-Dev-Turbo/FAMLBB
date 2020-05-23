@@ -1,7 +1,7 @@
 body {
   background-color: #21243d/*2d132c*/;
-  margin: 0;
   text-align: center;
+  margin:0;
   font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -35,8 +35,8 @@ h2 {
 
 .navbar {
   display: inline-block;
-  height: 90px;
-  width: 100%;
+  width:100%;
+  padding: 45px;
   background-color: #cf7500;
   position: relative;
   border-style: none none outset;
@@ -214,6 +214,7 @@ h2 {
 }
 
 .footer{
+  width:100%;
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: #cf7500;
@@ -239,6 +240,7 @@ h2 {
 }
 .footerpara1{
   font-weight: normal;
+  text-align: center;
   color:white;
 }
 .footerpara2{
