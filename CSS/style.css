@@ -183,12 +183,12 @@ h2 {
   position: absolute;
   width: 707.50px;
   height: 500px;
-  margin: 25px auto;
+  margin: 0 auto;
 }
 
 .fallentitle {
   position: relative;
-  margin: 70px auto;
+  margin: 95px auto 70px auto;
 }
 
 .para2 {
