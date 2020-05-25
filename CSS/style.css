@@ -226,7 +226,8 @@ h2 {
   display: inline-block;
   margin: 75px 5px;
   height:70%;
-  border-style: solid;
+  border-style:groove;
+  border-color: white;
   border-left: 1px;
 }
 
