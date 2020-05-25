@@ -212,6 +212,55 @@ h2 {
   border-color: grey;
 }
 
+.foura{
+  display: inline-block;
+  position:absolute;
+  left:0;
+  height:450px;
+  width:500px;
+  margin: 25px 20px 25px 25px;
+
+}
+
+.vl{
+  display: inline-block;
+  margin: 75px 5px;
+  height:70%;
+  border-style: solid;
+  border-left: 1px;
+}
+
+.fourb{
+  display: inline-block;
+  position:absolute;
+  right:0;
+  height:450px;
+  width:500px;
+  margin: 25px 25px 25px 20px;
+}
+
+.imagebox1{
+  position: relative;
+  margin: 40px auto;
+}
+
+.imagebox2{
+    position: relative;
+    margin: 40px auto;
+}
+
+.image2{
+  margin: auto;
+  height: 150px;
+  width: 150px;
+}
+
+.fourcontitle{
+  position: relative;
+  margin: 70px auto 30px auto;
+
+}
+
 .footer{
   width:100%;
   padding-top: 50px;
