@@ -78,7 +78,7 @@ h2 {
 
 @media (max-width: 1030px){
   .container{
-    width: 90%;
+    width: 80%;
     margin: 5% 10%;
     background-color: #84142d;
     border:outset grey;
@@ -87,7 +87,7 @@ h2 {
   }
 
   #squadintro .container{
-    width: 90%;
+    width: 80%;
     margin: 5% 10%;
     background-color: #84142d;
     border:outset grey;
