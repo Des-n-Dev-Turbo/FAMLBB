@@ -1,16 +1,7 @@
-body {
+body{
   background-color: #21243d/*2d132c*/;
-  text-align: center;
-  margin:0;
   font-family: 'Merriweather Sans', sans-serif;
-}
-
-h1 {
-  font-family: 'Sacramento', Arial, sans-serif, cursive;
   text-align: center;
-  font-size: 5em;
-  color: #ffbd69;
-  text-shadow: 1px 1px red, -1px -1px red;
 }
 
 h2 {
@@ -20,67 +11,154 @@ h2 {
   font-weight: normal;
 }
 
-.logoimage{
-  position:absolute;
-  left:200px;
-  top:0;
+/* Nav Bar */
+#navigation{
+  color:white;
+}
+
+.container-fluid{
+  padding:0;
+  border-style: none none outset;
+  border-color: white;
+}
+.navbar{
+  background-color: #cf7500;
+  padding: 2% 15%;
+
+}
+.navigation-logo{
   width:267.5px;
   height:90px;
-  margin: 0;
 }
-.heading1 {
+
+.nav-item{
+  padding: 2% 5%;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media (max-width: 630px){
+  .navbar{
+    background-color: #cf7500;
+    padding: 2% 10%;
+
+  }
+}
+
+/* Container */
+
+.container{
+  width: 70%;
+  margin: 2% 15%;
+  background-color: #84142d;
+  border:outset grey;
+  padding: 1% 1%;
+  position:relative;
+}
+
+@media (max-width: 1030px){
+  .container{
+    width: 90%;
+    margin: 5% 5%;
+    background-color: #84142d;
+    border:outset grey;
+    padding: 1% 1%;
+    position:relative;
+  }
+
+  #squadintro .container{
+    width: 90%;
+    margin: 5% 5%;
+    background-color: #84142d;
+    border:outset grey;
+    padding: 2% 1%;
+    position:relative;
+  }
+}
+
+/* Introduction */
+
+.introimage{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+.leftone{
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  z-index: 1;
+}
+
+.rightone{
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  right: 15%;
+  z-index: 1;
+}
+
+/* Top Section Headings */
+.mainheading{
+  font-family: 'Sacramento', Arial, sans-serif, cursive;
+  positon:absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: 500%;
+  color: #ffbd69;
+  text-shadow: 1px 1px red, -1px -1px red;
+}
+
+@media (min-width: 951px) and  (max-width:1050px){
+  .mainheading{
+    font-family: 'Sacramento', Arial, sans-serif, cursive;
+    positon:absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 350%;
+    color: #ffbd69;
+    text-shadow: 1px 1px red, -1px -1px red;
+  }
+}
+
+@media (min-width: 631px) and  (max-width:950px){
+  .mainheading{
+    font-family: 'Sacramento', Arial, sans-serif, cursive;
+    positon:absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    color: #ffbd69;
+    text-shadow: 1px 1px red, -1px -1px red;
+  }
+}
+
+@media (max-width: 630px){
+  .mainheading{
+    font-family: 'Sacramento', Arial, sans-serif, cursive;
+    positon:absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    color: #ffbd69;
+    text-shadow: 1px 1px red, -1px -1px red;
+  }
+}
+
+.heading1{
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: normal;
 }
 
-.navbar {
-  padding: 45px 0;
-  width:100%;
-  background-color: #cf7500;
-  position: relative;
-  border-style: none none outset;
-  border-color: white;
-}
-
-.topcontainer {
-  width: 1100px;
-  height: 500px;
-  margin: 30px auto;
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/A1T3uQssIML.png");
-  background-repeat: no-repeat;
-  background-size: 1100px 500px;
-  position: relative;
-  border-style: outset;
-  border-color: grey;
-}
-
-.leftone {
-  display: inline-block;
-  position: absolute;
-  top: 280px;
-  left: 220px;
-}
-
-.rightone {
-  display: inline-block;
-  position: absolute;
-  top: 280px;
-  right: 200px;
-}
-
-.secondcontainer {
-  width: 1100px;
-  height: 500px;
-  background-color: #84142d;
-  margin: 30px auto;
-  position: relative;
-  border-style: outset;
-  border-color: grey;
-}
-
+/* Game Intro Section */
 .mlbbimage {
   position: relative;
-  top: 50px;
+  top: 30px;
 }
 
 .imgclass1 {
@@ -89,8 +167,8 @@ h2 {
 
 .mlbbcontent {
   position: relative;
-  margin-top: 30px;
-  top: 20px;
+  margin: 5%;
+  top: 5%;
 }
 
 .para1 {
@@ -98,7 +176,7 @@ h2 {
   font-family: 'Kaushan Script', cursive;
   width: 50%;
   text-align: justify;
-  margin: 0 auto 20px auto;
+  margin: 5% auto 5% auto;
   color: #ffe8d6;
   line-height: 2;
 }
@@ -151,44 +229,48 @@ h2 {
   top: 1px;
 }
 
-.thirdcontainer {
-  width: 1100px;
-  height: 500px;
-  background-color: #84142d;
-  margin: 30px auto;
-  position: relative;
-  border-style: outset;
-  border-color: grey;
+@media (max-width: 1030px){
+  .mlbbcontent {
+    position: relative;
+    margin: 8% 5% 5% 5%;
+
+    top: 5%;
+  }
+  .para1 {
+    font-size: 1rem;
+    font-family: 'Kaushan Script', cursive;
+    width: 75%;
+    text-align: justify;
+    margin: 5% auto 5% auto;
+    color: #ffe8d6;
+    line-height: 2;
+  }
 }
 
+/* Squad Intro Section */
 .faimage {
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  width: 342.5px;
-  height: 450px;
-  margin: 25px;
+  position: relative;
+  margin: auto;
 }
 
 .image1 {
-  position: absolute;
-  left: 0;
+  position: relative;
   width: 342.5px;
   height: 450px;
+
 }
 
 .facontent {
   display: inline-block;
-  left: 393px;
-  position: absolute;
+  position: relative;
   width: 707.50px;
   height: 500px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .fallentitle {
   position: relative;
-  margin: 95px auto 70px auto;
+  margin: 70px auto 70px auto;
 }
 
 .para2 {
@@ -202,42 +284,29 @@ h2 {
   line-height: 2;
 }
 
-.fourthcontainer {
-  width: 1100px;
-  height: 500px;
-  background-color: #84142d;
-  margin: 30px auto;
-  position: relative;
-  border-style: outset;
-  border-color: grey;
+@media (max-width:1030px)
+{
+  .fallentitle {
+    position: relative;
+    margin: 70px auto 50px auto;
+  }
 }
 
+/* Contacts Section */
 .foura{
-  display: inline-block;
-  position:absolute;
+  position:relative;
   left:0;
   height:450px;
   width:500px;
-  margin: 25px 20px 25px 25px;
-
-}
-
-.vl{
-  display: inline-block;
-  margin: 75px 5px;
-  height:70%;
-  border-style:groove;
-  border-color: white;
-  border-left: 1px;
+  margin: auto;
 }
 
 .fourb{
-  display: inline-block;
-  position:absolute;
+  position:relative;
   right:0;
   height:450px;
   width:500px;
-  margin: 25px 25px 25px 20px;
+  margin:auto;
 }
 
 .imagebox1{
@@ -262,6 +331,21 @@ h2 {
 
 }
 
+@media (min-width: 1030px){
+  .foura{
+    border-style:none groove none none;
+    border-color: white;
+  }
+}
+
+@media (max-width: 1030px){
+  .foura{
+    border-style:none none groove none;
+    border-color: white;
+  }
+}
+
+/* Footer Section */
 .footer{
   width:100%;
   padding-top: 50px;
@@ -276,8 +360,8 @@ h2 {
   width:20px;
   height:20px;
   position:relative;
-  bottom: 20px;
-  margin: 10px 10px 0 10px;
+  bottom: 25px;
+  margin: 0 10px 0 10px;
 }
 
 .linkin{
@@ -303,6 +387,6 @@ h2 {
   width:20px;
   height:20px;
   position:relative;
-  top:15px;
+  bottom:5px;
   margin: 10px 10px;
 }

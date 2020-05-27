@@ -1,25 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Fallen Angels</title>
-    <link rel="stylesheet" href="CSS\style.css">
-    <link rel="icon" href="Images\FAfavicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather+Sans:wght@300;400;700&family=Nanum+Gothic:wght@400;700;800&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="navbar">
-      <img class="logoimage" src="Images\FALogo.png" alt="Logo Image">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>fallen Angels</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="Images\FAfavicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather+Sans:wght@300;400;700&family=Nanum+Gothic:wght@400;700;800&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS\style.css">
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="navigation">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">
+          <img class="navigation-logo" src="Images\FALogo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#contactinfo">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Squad</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Login / SignUp</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    <div class="topcontainer">
+  </section>
+  <section id="introduction">
+    <div class="container">
+      <img class="introimage" src="Images\MLBB.png" alt="Intro Image">
       <div class="leftone">
-        <h1><span class="heading1">f</span>allen</h1>
+        <h1 class="mainheading"><span class="heading1">f</span>allen</h1>
       </div>
       <div class="rightone">
-        <h1>Angels</h1>
+        <h1 class="mainheading">Angels</h1>
       </div>
     </div>
-    <div class="secondcontainer">
+  </section>
+  <section id="gameintro">
+    <div class="container">
       <div class="mlbbimage">
         <img class="imgclass1" src="Images\Mobilelegends.png" alt="Logo">
       </div>
@@ -29,28 +65,29 @@
         <a class="btna" href="https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang">know more..</a>
       </div>
     </div>
-    <div class="thirdcontainer">
-      <div class="faimage">
+  </section>
+  <section id="squadintro">
+    <div class="row container">
+      <div class="faimage col-lg-4 col-sm-12">
         <img class="image1" src="Images\fallen Angels.jpg" alt="Fallen Angel Image">
       </div>
-      <div class="facontent">
+      <div class="facontent col-lg-8 col-sm-12">
         <h2 class="fallentitle">What is fallen Angels ?</h2>
         <p class="para2">Fallen Angels is a MLBB squad created by friends to go all out in moba gaming experience and become stronger players. We plan on gaming on forward and continuing to persue higher ranks and expertise with new launching heroes. </p>
         <p class="para2">Our aim is to become legendary players and we plan on guiding other players by posting helpful tips and tricks as well as quick guide videos on youtube as well.</p>
       </div>
     </div>
-    <div class="fourthcontainer">
-      <div class="foura">
+  </section>
+  <section id="contactinfo">
+    <div class="container row">
+      <div class="foura col-lg-6">
         <h2 class="fourcontitle">Join our Discord Server</h2>
         <div class="imagebox1">
           <img class="image2" src="Images\discord1.svg" alt="Discord image">
         </div>
         <a class="btna" href="https://discord.gg/ZxYCHNg">Join us..</a>
       </div>
-      <div class="vl">
-
-      </div>
-      <div class="fourb">
+      <div class="fourb col-lg-6">
         <h2 class="fourcontitle">Contact us through Email</h2>
         <div class="imagebox2">
           <img class="image2" src="Images\email.svg" alt="Email Image">
@@ -58,6 +95,8 @@
         <a class="btna" href="mailto:fallenangels.squad.may2020@gmail.com">Mail to..</a>
       </div>
     </div>
+  </section>
+  <section id="footersection">
     <div class="footer">
       <img  class="footerimage"src="Images\instagram.svg" alt="GitHub Logo">
       <a class="linkin" href="#">Instagram</a>
@@ -69,5 +108,8 @@
       <img  class="footerimage1"src="Images\github.svg" alt="GitHub Logo">
       <p class="footerpara2">Hosting Partner GitHub</p>
     </div>
-  </body>
+
+  </section>
+</body>
+
 </html>
