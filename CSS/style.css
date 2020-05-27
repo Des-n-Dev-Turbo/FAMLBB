@@ -10,6 +10,23 @@ h2 {
   font-family: 'Satisfy', Arial, sans-serif, cursive;
   font-weight: normal;
 }
+/* Sections */
+
+/* #introduction{
+  text-align: center;
+}
+
+#gameintro{
+  text-align: center;
+}
+
+#squadintro{
+  text-align: center;
+}
+
+#contactinfo{
+  text-align: center;
+} */
 
 /* Nav Bar */
 #navigation{
@@ -62,7 +79,7 @@ h2 {
 @media (max-width: 1030px){
   .container{
     width: 90%;
-    margin: 5% 5%;
+    margin: 5% 10%;
     background-color: #84142d;
     border:outset grey;
     padding: 1% 1%;
@@ -71,7 +88,7 @@ h2 {
 
   #squadintro .container{
     width: 90%;
-    margin: 5% 5%;
+    margin: 5% 10%;
     background-color: #84142d;
     border:outset grey;
     padding: 2% 1%;
