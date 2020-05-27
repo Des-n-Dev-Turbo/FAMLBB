@@ -10,23 +10,6 @@ h2 {
   font-family: 'Satisfy', Arial, sans-serif, cursive;
   font-weight: normal;
 }
-/* Sections */
-
-/* #introduction{
-  text-align: center;
-}
-
-#gameintro{
-  text-align: center;
-}
-
-#squadintro{
-  text-align: center;
-}
-
-#contactinfo{
-  text-align: center;
-} */
 
 /* Nav Bar */
 #navigation{
@@ -76,7 +59,7 @@ h2 {
   position:relative;
 }
 
-@media (max-width: 1030px){
+@media (max-width: 1020px){
   .container{
     width: 80%;
     margin: 5% 10%;
@@ -91,7 +74,19 @@ h2 {
     margin: 5% 10%;
     background-color: #84142d;
     border:outset grey;
-    padding: 2% 1%;
+    padding: 2% 1% 2% 1%;
+    position:relative;
+  }
+}
+
+@media (max-width: 500px)
+{
+  #squadintro .container{
+    width: 80%;
+    margin: 5% 10%;
+    background-color: #84142d;
+    border:outset grey;
+    padding: 2% 1% 6% 1%;
     position:relative;
   }
 }
@@ -305,7 +300,7 @@ h2 {
 {
   .fallentitle {
     position: relative;
-    margin: 70px auto 50px auto;
+    margin: 70px auto 30px auto;
   }
 }
 
