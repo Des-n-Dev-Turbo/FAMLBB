@@ -348,6 +348,7 @@ h2 {
   position:relative;
   margin: auto;
   margin-bottom: 10px;
+  border: solid 5px black;
 }
 @media (max-width:1020px){
   .eveimg{
@@ -357,6 +358,7 @@ h2 {
     position:relative;
     margin: auto;
     margin-bottom: 10px;
+    border: solid 5px black;
   }
 }
 .para3 {
