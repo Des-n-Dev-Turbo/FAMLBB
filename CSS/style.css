@@ -12,7 +12,7 @@ body{
 h2 {
   color: #50d890;
   font-size: 2rem;
-  font-family: 'Satisfy', Arial, sans-serif, cursive;
+  font-family: 'Satisfy', cursive;
   font-weight: normal;
 }
 
@@ -618,4 +618,13 @@ h3{
   .aiclass{
     height: 17rem;
   }
+}
+
+/* Second Container  gamePageIntro2 Section*/
+
+.bfimg{
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: 2% auto;
 }
