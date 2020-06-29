@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-3">
+  <title>fallen Angels</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="Images\FAfavicon.ico">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,300;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,300;1,900&family=Sacramento&family=Satisfy&family=Yellowtail&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha334-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH3WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS\style.css">
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha334-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy33MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha334-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha334-OgVRvuATP1z7JjHLkuOU7Xw704+h335Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <section id="navigation">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img class="navigation-logo" src="Images\FALogo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="gameinfo.html">Game Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactinfo">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="squad.html">Squad</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Login / SignUp</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- First Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <button class="tablink btn gbbtn" onclick="openPage('Basic', this)" id="defaultOpen">Game Basic's</button>
+      </div>
+      <div class="col-sm-3">
+        <button class="tablink btn gbbtn" onclick="openPage('News', this)" id="newsTab">Events and News</button>
+      </div>
+      <div class="col-sm-3">
+        <button class="tablink btn gbbtn" onclick="openPage('Meta', this)">Meta Info</button>
+      </div>
+      <div class="col-sm-3">
+        <button class="tablink btn gbbtn" onclick="openPage('Value', this)">Tips and Trick's</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Second Container Intro Section -->
+  <section id="gamePageIntro">
+    <div id="Basic" class="Basic tabcontent container">
+      <h2>Game Basic's</h2>
+      <p class="para3">Its time to learn some basic's to begin with..</p>
+      <div class="inndiv">
+        <h3>Types of Arena's </h3>
+        <p class="para4">Lets start with how the arena's look and what are they for.</p>
+        <div class="row">
+          <div class="arena col-sm-12">
+            <img src="Images/Classic.png" alt="Classic Mode" class="gimg">
+            <div class="gdiv">
+              <h4 class="ghead">Classic Mode</h4>
+              <p class="gtext">Classic Mode is usually used for practice sessions as well as increasing win-rate's.Classic is the earliest game mode in Mobile Legends. All other game modes use the rules in Classic as a base. This mode gives 5 vs 5
+                and the Mobile Legends experience without worrying about losing Rank but your win rate will be affected, both from the hero side and the whole.​​​​ Classic Mode is suitable for beginners who need to familiarize themselves with
+                Mobile Legends games. You can freely choose any hero you have, plus the Weekly Free Heroes and the trial cards. However, in one team there can be no same hero.</p>
+            </div>
+          </div>
+          <div class="arena col-sm-12">
+            <img src="Images/Ranked.png" alt="Rank Mode" class="gimg">
+            <div class="gdiv">
+              <h4 class="ghead">Rank Mode</h4>
+              <p class="gtext">When your account reaches Level 3 and you have 5 or more heroes, you can take part in ranked play where you’ll be matched up by the system with opponents of similar strength.Players can invite friends to play in
+                ranked games together. Ranked play supports Solo/Double/5-Player Match-ups. Invited friends cannot be more than one division Higher or Lower than you. There are altogether 7 divisions in ranked play (from low to highest):
+                Images/Warrior, Elite, Master, Grand Master, Epic, Legend, and Mythic. Players get one star for every victory in ranked play, and lose a star for every loss. When a player has full stars, the next victory will result in promotion.
+                When a player has no stars, the next defeat will result in demotion. In Images/Warrior division, no stars will be deduced for losses. Mythic is the highest division in ranked play, and the top 50 players at Mythic rank on every
+                server will receive the Glorious Mythic title. Players who reach Mythic and Glorious Mythic rank can unlock exclusive avatar borders. When a season ends and a new season begins, a starting division will be calculated based on the
+                final division calculated in the previous season. Claim rewards from your mailbox at the end of the season according to your highest division reached. </p>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="Images/Warrior.png" alt="" class="rankimg">
+                <p class="ranktext">Warrior</p>
+              </div>
+              <div class="col-sm-3">
+                <img src="Images/Elite.png" alt="" class="rankimg">
+                <p class="ranktext">Elite</p>
+              </div>
+              <div class="col-sm-3">
+                <img src="Images/Master.png" alt="" class="rankimg">
+                <p class="ranktext">Master</p>
+              </div>
+              <div class="col-sm-3">
+                <img src="Images/Grandmaster.png" alt="" class="rankimg">
+                <p class="ranktext">Grand Master</p>
+              </div>
+              <div class="col-sm-3">
+                <img src="Images/Epic.png" alt="" class="rankimg">
+                <p class="ranktext">Epic</p>
+              </div>
+              <div class="col-sm-3">
+                <img src="Images/Legend.png" alt="" class="rankimg">
+                <p class="ranktext">Legend</p>
+              </div>
+              <div class="col-sm-3">
+                <img src="Images/Mythic.png" alt="" class="rankimg">
+                <p class="ranktext">Mythic</p>
+              </div>
+            </div>
+          </div>
+          <div class="arena col-sm-12">
+            <img src="Images/Brawl.png" alt="Brawl Mode" class="gimg">
+            <div class="gdiv">
+              <h4 class="ghead">Brawl Mode</h4>
+              <p class="gtext">In Brawl Mode, you are unable to choose your heroes freely. Instead you will be given a choice between two random heroes. This mode contains only one lane and two turrets defending the base in both teams respectively.
+                Brawl matches usually ends in a much shorter time comparing to Classic Mode and Ranked. This type of match is best for raising lost credit scores due to reports and AFK behaviour. Players are only given ONE lane instead of three.The
+                player is given a choice between 2 random heroes. Players who have been already out of the base can not re-enter the base. Items can only be bought inside the base, in order to buy more you must die and respawn.</p>
+            </div>
+          </div>
+          <div class="arena col-sm-12">
+            <img src="Images/VSAI.png" alt="AI Mode" class="gimg">
+            <div class="gdiv">
+              <h4 class="ghead">AI Mode</h4>
+              <p class="gtext">Just as the name itself of the mode suggests, this game mode will present you witha 5 vs 5 matchup just like any other mode. However, you will play along with real-players but compete against computer controlled
+                enemies. An AI (artificial intelligence) team automatically driven by the computer will fight against you. Usually VS A.I Mode can be used as a training ground to play or try out a new character. Since, in this game mode your game
+                statistics won't be Affected and you can also earn battle points after the match. You can also invite up to 4 friends to practice together against the computer.</p>
+            </div>
+          </div>
+          <div class="aiclass col-sm-12">
+            <div class="row">
+              <div class="col-sm-12">
+                <img src="Images/AIType.png" alt="VS AI Type" class="aiimg">
+                <p class="gtext" style="text-align:center">There are three game modes you can pick in this mode: Classic, Brawl and Draft pick.</p>
+              </div>
+            </div>
+          </div>
+          <div class="arena col-sm-12">
+            <img src="Images/Custom.png" alt="Custom Mode" class="gimg">
+            <div class="gdiv">
+              <h4 class="ghead">Custom Mode</h4>
+              <p class="gtext">Custom games are very similar to Vs. AI. The difference is the players set themselves up against other people or against AI. Players can invite friends to join, or add AI with existing buttons. Players can also add AI
+                to the opposing team or on your team, you can also play alone with an AI. The purpose and rules of the game are exactly the same as the Classic Mode, but here you have the freedom to manage the number of players. You can do 1 on 1
+                with friends in the game, or play three against 5 AI, or one against 5 AI.</p>
+            </div>
+          </div>
+          <div class="aiclass col-sm-12">
+            <div class="row">
+              <div class="col-sm-12">
+                <img src="Images/CustomType.jpg" alt="Custom Type" class="aiimg">
+                <p class="gtext" style="text-align:center">There are four game modes you can pick in this mode: Classic, Brawl, Draft pick and Practice.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Third Container Intro Section -->
+  <section id="gamePageIntro2">
+    <div class="Basic tabcontent container">
+      <h3>Layout and Battlefield </h3>
+      <p class="para4">Lets take a look at the layout of the battle field.</p>
+    </div>
+  </section>
+
+<!-- Fourth Container Events and News Section -->
+  <section id="eventsAndNews">
+    <div id="News" class="News tabcontent container">
+      <h2>Events and News</h2>
+      <p class="para3">Let's see whats new today in Mobile Legends!</p>
+    </div>
+  </section>
+
+<!-- Fifth Container Meta Section -->
+  <section>
+    <div id="Meta" class="Meta tabcontent container">
+      <h2>Meta Info</h2>
+      <p class="para3">Get in touch, with the strong character's in meta now.</p>
+    </div>
+  </section>
+
+<!-- Sixth Container Value Section -->
+  <section>
+    <div id="Value" class="Value tabcontent container">
+      <h2>Tips and Trick's</h2>
+      <p class="para3">It's time to understand, how we do it...</p>
+    </div>
+  </section>
+
+  <!-- Footer Bar -->
+  <section id="footersection">
+    <div class="footer">
+      <img class="footerimage" src="Images\instagram.svg" alt="GitHub Logo">
+      <a class="linkin" href="https://instagram.com/fa_01052020?igshid=1ujjmx495ngyv">Instagram</a>
+      <img class="footerimage" src="Images\facebook.svg" alt="GitHub Logo">
+      <a class="linkin" href="https://www.facebook.com/Fαllєи-Aиgєls-114324533647165">Facebook</a>
+      <img class="footerimage" src="Images\youtube.svg" alt="GitHub Logo">
+      <a class="linkin" href="https://www.youtube.com/channel/UC6vRAmIGefLrIQ-tVIF_xlA">Youtube</a>
+      <p class="footerpara1">© 2020 fallen Angels</p>
+      <img class="footerimage1" src="Images\github.svg" alt="GitHub Logo">
+      <p class="footerpara2">Hosting Partner GitHub</p>
+    </div>
+  </section>
+  <script src="JS/gameinfo.js" charset="utf-3"></script>
+</body>
+
+</html>
